@@ -3,6 +3,15 @@
     <head>
         <title>Page 1</title>
         <script data-main="js/page1" src="js/lib/require.js"></script>
+
+        <!-- giosg tag -->
+        <script>
+        (function(w, t, f) {
+          var s='script',o='_giosg',e,n;e=t.createElement(s);e.async=1;e.src='http://127.0.0.1:8000/client/'+f+'/';
+          w[o]=w[o]||function(){(w[o]._e=w[o]._e||[]).push(arguments)};n=t.getElementsByTagName(s)[0];n.parentNode.insertBefore(e,n);
+        })(window,document,1);
+        </script>
+        <!-- giosg tag -->
     </head>
     <body>
         <a href="page2.html">Go to Page 2</a>
